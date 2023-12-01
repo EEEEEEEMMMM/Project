@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px;
+    align-items: center;
+    gap: 40px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding: 0 100px;
+}
+
+.header__container-logo{
+    display: inline-block;
+    width: 10%;
+    height: 50px;
+}
+
+.button__catalog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 30px;
+    background-color: navy;
+    border: none;
+    border-radius: 20px;
+}
+.button__catalog:hover{
+    background-color: black;
+}
+
+.button__catalog a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.container__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container__a{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 20px;
+}
+
+.container__button a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins' sans-serif;
+}
+
+.contact__us{
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: white;
+}
+.contact__us:hover{
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px 100px;
+    gap: 20px;
+}
+
+.leader__card {
+    width: 50%;
+    height: 800px;
+    text-align: start;
+    background-color: blue;
+    padding: 150px 50px;
+    border-radius: 20px;
+}
+
+.title__leader-card {
+    font-size: 48px;
+}
+
+.button__leader-card {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.button__leader-card:hover {
+    background-color: rgb(44, 150, 192);
+}
+
+.text__leader-card {
+    margin: 30px 0;
+}
+
+.buttonUnder__text-card {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.container__small {
+    width: 40%;
+    height: 800px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.small__card-top {
+    width: 80%;
+    height: 400px;
+    background-color: rgba(215, 255, 105, 0.479);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 30px;
+}
+
+.img {
+    background-image: url('https://static.tildacdn.com/tild6664-6666-4331-b737-373766646461/4-1_image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 450px;
+}
+
+.small__card-bottom {
+    width: 80%;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 30px;
+}
+
+.title__small_top-card {
+    background-image: linear-gradient(90deg, #c4e353, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text__small_top-card {
+    background-image: linear-gradient(90deg, #c4e353, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title__small_bottom-card {
+    background-image: linear-gradient(90deg, #c4e353, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.text__small_bottom-card {
+    background-image: linear-gradient(90deg, #c4e353, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+h1,
+p {
+    color: white;
+}
